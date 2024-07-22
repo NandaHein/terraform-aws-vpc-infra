@@ -19,7 +19,3 @@ provider "aws" {
   profile                  = var.profile_01
   region                   = var.aws_region_01
 }
-
-provider "tls" {
-  # Configuration options
-}

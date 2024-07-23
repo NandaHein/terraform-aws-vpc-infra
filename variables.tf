@@ -109,5 +109,5 @@ variable "private_instance_instance_type" {
 variable "local_ssh_key_path" {
   description = "your private key path to stored"
   type        = string
-  default     = "/home/nanda/terraform-labs/terraform-aws-vpc-infra-modules/bastion_host.pem"
+  default     = "./bastion_host.pem"
 }
